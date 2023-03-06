@@ -1,7 +1,5 @@
 "use strict";
 
-// TODO
-
 const sum = (x) => {
   let current = x;
   const func = (y) => {
@@ -14,4 +12,4 @@ const sum = (x) => {
   return func;
 };
 
-console.log(sum(1)(2)(3));
+console.log(sum(1)(2)(3).toString());
